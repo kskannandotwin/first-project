@@ -11,7 +11,7 @@ export class CreateRoleDto {
   readonly roleDescription?: string;
 
   @IsOptional()
-  createdBy?: number | null;
+  createdBy?: number;
 }
 
 export class UpdateRoleDto {
@@ -24,5 +24,5 @@ export class UpdateRoleDto {
   readonly roleDescription?: string;
 
   @IsOptional()
-  updatedBy?: number | null;
+  updatedBy?: number;
 }
